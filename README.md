@@ -1,4 +1,6 @@
 Casusbeschrijving: ‘Slimme Huishoudplanner’
+
+
 Achtergrond
 Veel huishoudens worstelen met het plannen en bijhouden van dagelijkse routines. Recepten, boodschappenlijstjes, voorraadbeheer en huishoudelijke taken worden vaak los van elkaar bijgehouden op briefjes, kalenders, in verschillende apps of zelfs alleen in het hoofd. Deze versnipperde aanpak kost veel mentaal werk en zorgt voor inefficiëntie, leidt tot vergeten taken, voedselverspilling en soms tot een oneerlijke verdeling van verantwoordelijkheden. 
 Probleemomschrijving
