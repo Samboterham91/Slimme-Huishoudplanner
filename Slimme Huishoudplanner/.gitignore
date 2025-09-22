@@ -1,0 +1,36 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build Folders
+bin/
+obj/
+Debug/
+Release/
+
+## Rider / ReSharper
+.idea/
+*.resharper
+_ReSharper*/
+
+## OS-specifiek
+Thumbs.db
+*.DS_Store
+desktop.ini
+
+## NuGet Packages
+*.nupkg
+packages/
+*.snupkg
+
+## Log bestanden
+*.log
+
+## Andere tijdelijke bestanden
+*.tmp
+*.bak
+
+
