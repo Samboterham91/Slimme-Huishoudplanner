@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
-
-namespace Slimme_Huishoudplanner
+﻿namespace Slimme_Huishoudplanner
 {
     internal class Program
     {
@@ -17,6 +10,8 @@ namespace Slimme_Huishoudplanner
             do
             {
                 Console.WriteLine("\n--- Hoofdmenu ---");
+                Console.WriteLine("\n--- Welkom! ---");
+
                 Console.WriteLine("Maak een keuze: ");
 
                 if (!int.TryParse(Console.ReadLine(), out choice))
@@ -24,7 +19,7 @@ namespace Slimme_Huishoudplanner
                     Console.WriteLine("Ongeldige invoer. Probeer het opnieuw.");
                     continue;
                 }
-                    switch (choice)
+                switch (choice)
                 {
                     case 0:
                         Console.WriteLine("Programma wordt afgesloten.");
@@ -38,7 +33,6 @@ namespace Slimme_Huishoudplanner
                         break;
                 }
             } while (choice != 0);
-
         }
     }
 }
