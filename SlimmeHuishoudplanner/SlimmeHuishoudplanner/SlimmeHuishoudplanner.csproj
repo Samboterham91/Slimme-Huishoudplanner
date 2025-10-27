@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Persistance\" />
+    <Folder Include="UI\" />
+  </ItemGroup>
+
 </Project>
