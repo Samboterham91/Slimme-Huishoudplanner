@@ -1,0 +1,38 @@
+﻿# Build directories
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code / JetBrains IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Auto-generated files
+*.exe
+*.dll
+*.pdb
+*.cache
+*.dbmdl
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Configuration
+appsettings.*
+*.env
+
+# Publish output
+publish/
