@@ -72,7 +72,8 @@ namespace SlimmeHuishoudplanner.Tests.Application
             Assert.Equal(addedTask.Description, fetchedTask.Description); // Vergelijk de beschrijvingen
             Assert.False(fetchedTask.IsDone); // Controleer dat de taak niet als voltooid is gemarkeerd
 
-            //Alle drie de lagen werken hier samen: (InMemoryDatabase, TaskManager, Task) dus er ontstaat een data-integriteitstest.
+            //Alle drie de lagen werken hier
+            //samen: (InMemoryDatabase, TaskManager, Task) dus er ontstaat een data-integriteitstest.
         }
     }
 }
