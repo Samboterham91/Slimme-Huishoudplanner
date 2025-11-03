@@ -17,10 +17,5 @@ namespace SlimmeHuishoudplanner.Domain
         {
             IsDone = true;
         }
-
-        public void Reopen()
-        {
-            IsDone = false;
-        }
     }
 }
