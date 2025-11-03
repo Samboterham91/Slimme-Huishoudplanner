@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SlimmeHuishoudplanner.Application
 {
-    internal class ShoppingManager
+    public class ShoppingManager
     {
     }
 }
